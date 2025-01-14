@@ -11,6 +11,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'league-spartan': ['League Spartan', 'sans-serif'],
+        'newsreader': ['Newsreader', 'serif'],
+        'pathway-extreme': ['Pathway Extreme', 'sans-serif'],
+        'dm-sans': ['DM Sans', 'sans-serif'],
+      },
     },
   },
   plugins: [],

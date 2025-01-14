@@ -1,9 +1,16 @@
-import Image from 'next/image';
+import {clsx} from 'clsx';
+import Color from '../data/color.json';
+
+import Header from '@/components/HeaderSection/DesktopHeader/Header';
 
 export default function Home() {
   return (
-    <div className='w-screen h-screen overflow-hidden flex justify-center items-center'>
-      <h1 className='font-semibold text-2xl'>Shop - Base</h1>
+    <div
+      style={{backgroundColor: Color['background-color']}}
+      className={clsx(`h-[2000px] w-full`)}
+    >
+      {/*<h1 className={clsx("text-2xl font-semibold font-newsreader")}>Shop - Base</h1>*/}
+      <Header />
     </div>
   );
 }
